@@ -15,31 +15,29 @@ int wuerfeln()
 	int xfaktor= (rand() % 6) + 1;
 	return xfaktor;
 }
-int main()
-{
+void game() {
 	int command;
-	cout << wuerfeln() << endl;
 	cout << "Ich vs Dragon\nDu befindest dich in der Hoehle des schlafenden Drachens" << endl;
-	cout << "Was tust du?"<< endl;
+	cout << "Was tust du?" << endl;
 	cout << "(1) Den Drachen angreifen" << endl;
 	cout << "(2) Dich umsehen" << endl;
-	cout << "(3) Dich an ihn heranschleichen"  << endl;
+	cout << "(3) Dich an ihn heranschleichen" << endl;
 	cin >> command;
-	if (command == 1) 
+	if (command == 1)
 	{
 		if (wuerfeln() < 6)
 		{
 			cout << "Der Drache erwacht und speit sofort Feuer. Du bist sofort Tot" << endl;
-			ShellExecute(NULL, "Open" , "http://www.feelsbadman.com/", NULL, NULL, 1);
+			ShellExecute(NULL, "Open", "http://www.feelsbadman.com/", NULL, NULL, 1);
 		}
-		else 
+		else
 		{
 			cout << "Zu deinem Glueck erwacht der Drache nicht \nund du versetzt den ersten Schlag" << endl;
 			if (wuerfeln() < 6)
 			{
 				cout << "Dieser war zu deinem Glueck sofort toedlich. \nDu hast gewonnen! (AlwaysLucky)" << endl;
 			}
-			cout << "Nun ist auch der Drache erwacht und baeumt sich auf.\n Was tust du?"<< endl;
+			cout << "Nun ist auch der Drache erwacht und baeumt sich auf.\n Was tust du?" << endl;
 			cout << "(1) Ich versuche Abstand zu gewinnen!" << endl;
 			cout << "(2) Ich sehe mich um!" << endl;
 			cin >> command;
@@ -49,13 +47,13 @@ int main()
 				{
 					cout << "Der Drache schlägt wild um sich, \ntrifft dich dabei aber toedlich. \nRiP Dreams" << endl;
 				}
-				else 
+				else
 				{
 					cout << "Der Drache schlaegt wild um sich, \ndu kannst allerdings ausweichen!\n Was tust du?" << endl;
 					cout << "(1) Jetzt wo er erschoepft ist greife ich erneut an!" << endl;
 					cout << "(2) Ich versuche hinter ihn zu kommen" << endl;
 					cin >> command;
-					if (command == 1) 
+					if (command == 1)
 					{
 						if (wuerfeln() < 5) {
 							cout << "Du kommst an ihn heran und versetzt ihm einen toedlichen Schlag. \nDu gewinnst!" << endl;
@@ -65,7 +63,7 @@ int main()
 							cout << "Der Drache hat sich laengst erholt als du bei ihm wieder ankommst \nund erschlaegt dich!\n never skip leg day" << endl;
 						}
 					}
-					if (command== 2)
+					if (command == 2)
 					{
 						cout << "yo dude, der Drache is ziemlich BIG. \nEr dich einfach mit seinem Schwanz erschlagen. REKT!" << endl;
 					}
@@ -92,7 +90,7 @@ int main()
 			}
 			else
 			{
-				if(wuerfeln() < 4)
+				if (wuerfeln() < 4)
 				{
 					cout << "Die Wand stuerzt ein und begraebt den Drachen. Ez Game Ez Life." << endl;
 				}
@@ -119,7 +117,19 @@ int main()
 		cout << "Du bist Leider ein schwerer Ritter, \nder Drache hoert dich und und speit sofort Feuer" << endl;
 		ShellExecute(NULL, "Open", "http://www.feelsbadman.com/", NULL, NULL, 1);
 	}
-	
-    return 0;
+}
+int main()
+{
+	int command;
+	do
+	{
+		game();
+		cout << "(1) New Game" << endl;
+		cout << "(2) Quit Game" << endl;
+
+		cin >> command;
+	} while (command != 2);
+    
+	return 0;
 }
 
