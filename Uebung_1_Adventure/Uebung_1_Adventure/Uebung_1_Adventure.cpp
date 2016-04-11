@@ -30,7 +30,8 @@ void game() {
 		if (wuerfeln() < 6)
 		{
 			cout << "Der Drache erwacht und speit sofort Feuer. Du bist sofort Tot." << endl;
-			//ShellExecute(0, 0, L"http://www.feelsbadman.com", 0, 0, SW_SHOW);
+			Sleep(2000);
+			ShellExecute(0, 0, L"http://www.feelsbadman.com", 0, 0, SW_SHOW);
 		}
 		else
 		{
@@ -110,7 +111,7 @@ void game() {
 		{
 			if (wuerfeln() < 4)
 			{
-				cout << "Der Steinwand scheint dem nicht standzuhalten und bricht ein" << endl;
+				cout << "Der Steinwand scheint dem nicht standzuhalten und bricht ein und begraebt den Drachen. Du gewinnst!" << endl;
 			}
 			else
 			{
