@@ -1,3 +1,0 @@
-F:/Daten/Programmieren/Grundlagen_Cpp/Uebung_2_Time/cpp16_u2_codevorgabe/ScopeTimerGuidline/CMakeFiles/ScopeTimerGuidline.dir
-F:/Daten/Programmieren/Grundlagen_Cpp/Uebung_2_Time/cpp16_u2_codevorgabe/ScopeTimerGuidline/CMakeFiles/ALL_BUILD.dir
-F:/Daten/Programmieren/Grundlagen_Cpp/Uebung_2_Time/cpp16_u2_codevorgabe/ScopeTimerGuidline/CMakeFiles/ZERO_CHECK.dir
