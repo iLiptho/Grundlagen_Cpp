@@ -5,14 +5,12 @@
 /// \brief This tasks shows you how fast your console is.
 void heavyWork1()
 {
-
-	ScopeTimer test;
 	// TODO: put a timer here
-	for (int i = 0; i < 1000; ++i)
+	ScopeTimer Test;
+	for( int i = 0; i < 1000; ++i )
 	{
 		std::cout << "I am working\n";
 	}
-	std::cout << "Test:" << std::endl;
 }
 
 /// \brief Count the number of primes in an interval.
@@ -21,29 +19,26 @@ void heavyWork1()
 ///		
 ///		This code is a modified version of the frequency of primes example
 ///		from http://www.cplusplus.com/reference/ctime/clock/
-int heavyWork2(int n0, int n1)
+int heavyWork2( int n0, int n1 )
 {
-
-	ScopeTimer test2;
 	// TODO: put a timer here
-	int freq = n1 - n0 + 1;
-	for (int i = n0; i <= n1; ++i)
+	ScopeTimer Test2;
+	int freq = n1-n0+1;
+	for(int i = n0; i <= n1; ++i)
 	{
 		// Have fun: use the alternative iteration direction and see how fast
 		// it gets!
 		// for(int j = 2; j < i; ++j)
-		for (int j = i - 1; j > 1; --j)
+		for(int j = i-1; j > 1; --j)
 		{
-			if (i%j == 0)
+			if(i%j == 0)
 			{
 				--freq;
 				break;
 			}
 		}
 	}
-	std::cout << "Test2:" << std::endl;
 	return freq;
-
 }
 
 /// \brief Count the number of primes in an interval.
@@ -53,40 +48,35 @@ int heavyWork2(int n0, int n1)
 ///		
 ///		This code is a modified version of the frequency of primes example
 ///		from http://www.cplusplus.com/reference/ctime/clock/
-int heavyWork3(int n0, int n1)
+int heavyWork3( int n0, int n1 )
 {
-
-	ScopeTimer test3;
+	ScopeTimer Test3;
 	// TODO: put a timer here
-	int freq = n1 - n0 + 1;
-	for (int i = n0; i <= n1; ++i)
+	int freq = n1-n0+1;
+	for(int i = n0; i <= n1; ++i)
 	{
 		int max = (int)sqrt(i);
-		for (int j = 2; j <= max; ++j)
+		for(int j = 2; j <= max; ++j)
 		{
-			if (i%j == 0)
+			if(i%j == 0)
 			{
 				--freq;
 				break;
 			}
 		}
 	}
-	std::cout << "Test3:" << std::endl;
 	return freq;
-
 }
 
 /// \brief This function calls all test functions and measures the overall time
 ///		of all tasks.
 void doAllTheHeavyWork()
 {
-
-	ScopeTimer test4;
 	// TODO: put a timer here
+	ScopeTimer Test4;
 	heavyWork1();
 	std::cout << "Number of primes in [0, 100000]: " << heavyWork2(0, 100000) << std::endl;
 	std::cout << "Number of primes in [0, 100000]: " << heavyWork3(0, 100000) << std::endl;
-	std::cout << "Test4:" << std::endl;
 }
 
 

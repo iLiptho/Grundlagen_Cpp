@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/iLiptho/Desktop/Programmieren/Grundlagen_Cpp/Uebung_2_Time/ScopeTimerGuidline
+# Install script for directory: F:/Daten/Programmieren/Grundlagen_Cpp/Uebung_2_Time/ScopeTimerGuidline
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/iLiptho/Desktop/Programmieren/Grundlagen_Cpp/Uebung_2_Time/ScopeTimerGuidline/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/Daten/Programmieren/Grundlagen_Cpp/Uebung_2_Time/ScopeTimerGuidline/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

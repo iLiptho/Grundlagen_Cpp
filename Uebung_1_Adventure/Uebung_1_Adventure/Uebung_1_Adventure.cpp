@@ -72,11 +72,9 @@ void game() {
 			if (command == 2)
 			{
 				cout << "Im Eifer des Gefechts achtest du nicht auf den Drachen \nund endest als gegartes Dosenfutter!" << endl;
-				command = 13;
 			}
 		}
 	}
-	
 	if (command == 2)
 	{
 		cout << "Du erkennst einen grosse instabile Wand genau neben dem Drachen \nund eine scheinbar funktionstuechtige Glocke" << endl;
@@ -117,7 +115,7 @@ void game() {
 	if (command == 3)
 	{
 		cout << "Du bist Leider ein schwerer Ritter, \nder Drache hoert dich und und speit sofort Feuer" << endl;
-		ShellExecute(NULL, 0, L"http://www.feelsbadman.com/", NULL, NULL, SW_SHOW);
+		ShellExecute(NULL, "Open", "http://www.feelsbadman.com/", NULL, NULL, 1);
 	}
 }
 int main()

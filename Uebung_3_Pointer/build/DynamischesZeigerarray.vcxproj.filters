@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_3_Pointer\object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_3_Pointer\program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quelle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_3_Pointer\object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_3_Pointer\dynamicobjectlist.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_3_Pointer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{672F272D-C04A-3C4F-BB48-1B0D720F7605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AA09A8AA-A18F-3C24-A862-D893BB6C1C83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
