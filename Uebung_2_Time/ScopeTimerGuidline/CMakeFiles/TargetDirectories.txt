@@ -1,3 +1,3 @@
-C:/Users/iLiptho/Desktop/Programmieren/Grundlagen_Cpp/Uebung_2_Time/ScopeTimerGuidline/CMakeFiles/ScopeTimerGuidline.dir
-C:/Users/iLiptho/Desktop/Programmieren/Grundlagen_Cpp/Uebung_2_Time/ScopeTimerGuidline/CMakeFiles/ALL_BUILD.dir
-C:/Users/iLiptho/Desktop/Programmieren/Grundlagen_Cpp/Uebung_2_Time/ScopeTimerGuidline/CMakeFiles/ZERO_CHECK.dir
+F:/Daten/Programmieren/Grundlagen_Cpp/Uebung_2_Time/ScopeTimerGuidline/CMakeFiles/ScopeTimerGuidline.dir
+F:/Daten/Programmieren/Grundlagen_Cpp/Uebung_2_Time/ScopeTimerGuidline/CMakeFiles/ALL_BUILD.dir
+F:/Daten/Programmieren/Grundlagen_Cpp/Uebung_2_Time/ScopeTimerGuidline/CMakeFiles/ZERO_CHECK.dir

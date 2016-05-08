@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\iLiptho\Desktop\Programmieren\Grundlagen_Cpp\Uebung_2_Time\ScopeTimerGuidline\demo.cpp">
+    <ClCompile Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_2_Time\ScopeTimerGuidline\demo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\iLiptho\Desktop\Programmieren\Grundlagen_Cpp\Uebung_2_Time\ScopeTimerGuidline\timer.cpp">
+    <ClCompile Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_2_Time\ScopeTimerGuidline\timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\iLiptho\Desktop\Programmieren\Grundlagen_Cpp\Uebung_2_Time\ScopeTimerGuidline\timer.hpp">
+    <ClInclude Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_2_Time\ScopeTimerGuidline\timer.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\iLiptho\Desktop\Programmieren\Grundlagen_Cpp\Uebung_2_Time\ScopeTimerGuidline\CMakeLists.txt" />
+    <CustomBuild Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_2_Time\ScopeTimerGuidline\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{861548DA-1097-32A3-8B6C-04A48E768667}</UniqueIdentifier>
+      <UniqueIdentifier>{F6CD3483-AB2C-323B-82B4-F957D96F6EC5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{63C90561-3A54-3A4F-B5FF-39B37AA087FE}</UniqueIdentifier>
+      <UniqueIdentifier>{7E6DB3D1-220A-36C3-B118-0E3C202EA713}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
