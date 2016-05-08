@@ -1,0 +1,3 @@
+D:/Programmieren/Grundlagen_Cpp/Uebung_3_Pointer/CMakeFiles/DynamischesZeigerarray.dir
+D:/Programmieren/Grundlagen_Cpp/Uebung_3_Pointer/CMakeFiles/ALL_BUILD.dir
+D:/Programmieren/Grundlagen_Cpp/Uebung_3_Pointer/CMakeFiles/ZERO_CHECK.dir
