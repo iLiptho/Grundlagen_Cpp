@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_5_DynamicList\dynamicobjectlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_5_DynamicList\program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_5_DynamicList\object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_5_DynamicList\dynamicobjectlist.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_5_DynamicList\object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_5_DynamicList\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A2DEF33E-2EE5-3124-8935-82395E5B6E79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E2FE72BA-8BA5-3EE0-BA60-7699F149122B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
