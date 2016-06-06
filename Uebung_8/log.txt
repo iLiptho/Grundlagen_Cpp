@@ -1,0 +1,18 @@
+targets ok
+########################
+
+ok: normal spaceships do not do damage to planets
+ok: deathstar dealt damage to planet
+planets ok
+########################
+
+fail: spaceship generated no damage
+fail: no shield damage
+spaceships failed
+########################
+
+ok: deathstar exploded with health down
+ok: deathstar random exploded kicked in
+deathstar ok
+########################
+
