@@ -15,7 +15,7 @@ int main()
 
 	// The string parameter has to be interpreted as a float, determining its buildProgress
 	// TODO: Register DeathStar
-	SpaceShipFactory::registerSpaceShipType("Deathstar", [](float progress) { return std::shared_ptr});
+	SpaceShipFactory::registerSpaceShipType("Deathstar", [](float progress) { return std::shared_ptr<SpaceShip>});
 
 	
 	// TODO: Register Destroyer
