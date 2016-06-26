@@ -1,0 +1,7 @@
+DeathStar 96.148
+Destroyer 53
+LargeDestroyer 9702
+TieFighter Zack
+TieFighter Biggs
+TieFighter Grand Moff Danhousen
+TieFighter Tie McFighterFace

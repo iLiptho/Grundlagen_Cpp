@@ -1,0 +1,2 @@
+
+Sat Jun 11 13:27:12 2016  [F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_9_Singleton\program.cpp : 13]<level 2> Created important static object.Sat Jun 11 13:27:12 2016  [F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_9_Singleton\program.cpp : 40]<error>   Error code: 42 - 	Maybe it was just an error code and not an answer!Sat Jun 11 13:27:12 2016  [F:\Daten\Programmieren\Grundlagen_Cpp\Uebung_9_Singleton\program.cpp : 14]<level 2> Destroyed important static object.
